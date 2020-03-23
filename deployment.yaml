@@ -9,7 +9,7 @@ spec:
       containers:
       - name: the-container
         # image: monopole/hello:1
-        image: cenos:latest
+        image: centos:latest
         command: ["tail",
                   "-f",
                   "/dev/null"]
