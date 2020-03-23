@@ -1,0 +1,9 @@
+commonLabels:
+  app: hello
+
+resources:
+- deployment.yaml
+- service.yaml
+
+# generators:
+# - cmGenerator.yaml
