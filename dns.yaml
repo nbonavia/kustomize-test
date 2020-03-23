@@ -1,4 +1,4 @@
-apiVersion: big/v1
+apiVersion: big
 kind: ExternalName
 metadata:
   name: myname
