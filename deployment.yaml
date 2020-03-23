@@ -15,19 +15,19 @@ spec:
                   "--enableRiskyFeature=$(ENABLE_RISKY)"]
         ports:
         - containerPort: 8080
-        env:
-        - name: THE_DATE
-          valueFrom:
-            configMapKeyRef:
-              name: the-map
-              key: today
-        - name: ALT_GREETING
-          valueFrom:
-            configMapKeyRef:
-              name: the-map
-              key: altGreeting
-        - name: ENABLE_RISKY
-          valueFrom:
-            configMapKeyRef:
-              name: the-map
-              key: enableRisky
+        # env:
+        # - name: THE_DATE
+        #   valueFrom:
+        #     configMapKeyRef:
+        #       name: the-map
+        #       key: today
+        # - name: ALT_GREETING
+        #   valueFrom:
+        #     configMapKeyRef:
+        #       name: the-map
+        #       key: altGreeting
+        # - name: ENABLE_RISKY
+        #   valueFrom:
+        #     configMapKeyRef:
+        #       name: the-map
+        #       key: enableRisky
