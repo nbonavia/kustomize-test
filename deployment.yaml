@@ -10,9 +10,9 @@ spec:
       - name: the-container
         image: monopole/hello:1
         command: ["/hello",
-                  "--port=8080",
-                  "--date=$(THE_DATE)",
-                  "--enableRiskyFeature=$(ENABLE_RISKY)"]
+                  "--port=8080"]
+                  # "--date=$(THE_DATE)",
+                  # "--enableRiskyFeature=$(ENABLE_RISKY)"]
         ports:
         - containerPort: 8080
         # env:
