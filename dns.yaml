@@ -1,0 +1,6 @@
+apiVersion: big/v1
+kind: ExternalName
+metadata:
+  name: myname
+argsOneLiner: ./dns.csv
+

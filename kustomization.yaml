@@ -7,3 +7,4 @@ resources:
 
 generators:
 - cmGenerator.yaml
+- dns.csv
