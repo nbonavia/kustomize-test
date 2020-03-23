@@ -8,9 +8,11 @@ spec:
     spec:
       containers:
       - name: the-container
-        image: monopole/hello:1
-        command: ["/hello",
-                  "--port=8080"]
+        # image: monopole/hello:1
+        image: cenos:latest
+        command: ["tail",
+                  "-f",
+                  "/dev/null"]
                   # "--date=$(THE_DATE)",
                   # "--enableRiskyFeature=$(ENABLE_RISKY)"]
         ports:
