@@ -1,8 +1,8 @@
 commonLabels:
   app: hello
 
-resources:
-- deployment.yaml
+# resources:
+# - deployment.yaml
 # - service.yaml
 
 generators:
