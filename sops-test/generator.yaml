@@ -1,0 +1,8 @@
+apiVersion: goabout.com/v1beta1
+kind: SopsSecretGenerator
+metadata:
+  name: my-secret
+behavior: create
+disableNameSuffixHash: false
+files:
+  - secret-file.txt

@@ -3,5 +3,8 @@ kind: Kustomization
 
 namespace: test
 
+generators:
+  - generator.yaml
+  
 resources:
 - ./pod.yaml
